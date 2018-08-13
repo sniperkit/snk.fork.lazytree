@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package object
 
 // Core types used for communicating between drivers and the file system

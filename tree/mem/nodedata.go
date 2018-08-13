@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package mem
 
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/postverta/lazytree/driver"
-	"github.com/postverta/lazytree/tree"
+
+	"github.com/sniperkit/snk.fork.lazytree/driver"
+	"github.com/sniperkit/snk.fork.lazytree/tree"
 )
 
 // Serialized format of a node. Used to communicate with the persistent backend.

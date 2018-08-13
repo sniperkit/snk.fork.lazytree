@@ -1,12 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package fuse
 
 import (
-	"github.com/postverta/lazytree/tree"
-	"github.com/hanwen/go-fuse/fuse"
 	"log"
 	"sync"
 	"syscall"
 	"time"
+
+	"github.com/hanwen/go-fuse/fuse"
+
+	"github.com/sniperkit/snk.fork.lazytree/tree"
 )
 
 // Implementation of the fuse interface (go binding provided by go-fuse)

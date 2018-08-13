@@ -1,15 +1,22 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package test
 
 import (
-	"github.com/postverta/lazytree/fuse"
-	"github.com/postverta/lazytree/tree/mem"
-	"github.com/satori/go.uuid"
 	"io/ioutil"
 	"log"
 	"os"
 	"os/exec"
 	"testing"
 	"time"
+
+	"github.com/satori/go.uuid"
+
+	"github.com/sniperkit/snk.fork.lazytree/fuse"
+	"github.com/sniperkit/snk.fork.lazytree/tree/mem"
 )
 
 var FuseFileSystems []*fuse.FuseFileSystem

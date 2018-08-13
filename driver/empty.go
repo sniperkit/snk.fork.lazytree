@@ -1,8 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package driver
 
 import (
-	"github.com/postverta/lazytree/object"
 	"log"
+
+	"github.com/sniperkit/snk.fork.lazytree/object"
 )
 
 // A special empty driver to make sure things are sane even if we hit an unknown driver name.

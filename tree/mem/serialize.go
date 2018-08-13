@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package mem
 
 import (
 	"encoding/gob"
-	"github.com/golang/snappy"
 	"io"
+
+	"github.com/golang/snappy"
 )
 
 // We use gob to encode each NodeData and use snappy to compress the final

@@ -1,15 +1,22 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package mem
 
 import (
 	"encoding/json"
 	"errors"
-	"github.com/postverta/lazytree/driver"
-	"github.com/postverta/lazytree/object"
-	"github.com/postverta/lazytree/tree"
-	"github.com/satori/go.uuid"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/satori/go.uuid"
+
+	"github.com/sniperkit/snk.fork.lazytree/driver"
+	"github.com/sniperkit/snk.fork.lazytree/object"
+	"github.com/sniperkit/snk.fork.lazytree/tree"
 )
 
 var (

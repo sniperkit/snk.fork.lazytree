@@ -1,8 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package mem
 
 import (
-	"github.com/postverta/lazytree/driver"
 	"time"
+
+	"github.com/sniperkit/snk.fork.lazytree/driver"
 )
 
 // New file node with empty data

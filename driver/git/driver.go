@@ -1,19 +1,26 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package git
 
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/postverta/lazytree/driver"
-	"github.com/postverta/lazytree/object"
+	"io/ioutil"
+	"log"
+	"strings"
+	"sync"
+
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/config"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
 	"gopkg.in/src-d/go-git.v4/storage/memory"
-	"io/ioutil"
-	"log"
-	"strings"
-	"sync"
+
+	"github.com/sniperkit/snk.fork.lazytree/driver"
+	"github.com/sniperkit/snk.fork.lazytree/object"
 )
 
 // Driver for git tree.

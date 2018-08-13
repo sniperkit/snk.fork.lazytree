@@ -1,10 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package mem
 
 import (
-	"github.com/postverta/lazytree/driver"
-	"github.com/postverta/lazytree/object"
-	"github.com/satori/go.uuid"
 	"log"
+
+	"github.com/satori/go.uuid"
+
+	"github.com/sniperkit/snk.fork.lazytree/driver"
+	"github.com/sniperkit/snk.fork.lazytree/object"
 )
 
 func newNodeByTreeEntry(ctx *Context, entry *object.TreeEntry) (Node, error) {

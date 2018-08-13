@@ -1,7 +1,12 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package driver
 
 import (
-	"github.com/postverta/lazytree/object"
+	"github.com/sniperkit/snk.fork.lazytree/object"
 )
 
 type Reference interface {

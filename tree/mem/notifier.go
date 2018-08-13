@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package mem
 
 // Notifier describes an optional entity to each node for it to notify certain
